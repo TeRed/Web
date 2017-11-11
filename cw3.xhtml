@@ -1,145 +1,148 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//PL"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>Tytuł</title>
-		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-	</head>
+<head>
+	<title>Tytuł</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" title="Default"/>
+	<link href="css/alter.css" rel="alternate stylesheet" type="text/css" title="Alter"/>
+</head>
 <body>
-  <div id="content-table">
-    <h1>Spiś treści</h1>
-    <ul class="nav">
-      <li><a href="#chapter0">Tabele i listy</a></li>
-      <li><a href="#chapter1">Tabela</a></li>
-      <li><a href="#chapter2">Wielopoziomowa lista</a></li>
-      <li><a href="#chapter3">Wykaz definicji kilku terminów</a></li>
-      <li><a href="#chapter4">Odpowiedzi na pytania</a></li>
-    </ul>
-  </div>
+  <div id="content-wrap">
+    <div id="content-table">
+      <h1>Spiś treści</h1>
+      <ul class="nav">
+        <li><a href="#chapter0">Tabele i listy</a></li>
+        <li><a href="#chapter1">Tabela</a></li>
+        <li><a href="#chapter2">Wielopoziomowa lista</a></li>
+        <li><a href="#chapter3">Wykaz definicji kilku terminów</a></li>
+        <li><a href="#chapter4">Odpowiedzi na pytania</a></li>
+      </ul>
+    </div>
 
-  <div id="main">
-    <h1 class="fulljustify" id="chapter0">Tabele i listy</h1>
+    <div id="main">
+      <h1 class="fulljustify" id="chapter0">Tabele i listy</h1>
 
-    <h2 id="chapter1">Tabela</h2>
+      <h2 id="chapter1">Tabela</h2>
 
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Head 1</th>
-          <th>Head 2</th>
-          <th>Head 3</th>
-          <th>Head 4</th>
-          <th>Head 5</th>
-        </tr>
-      </thead>
-      <tfoot>
-        <tr>
-          <td>Foot 1</td>
-          <td>Foot 2</td>
-          <td>Foot 3</td>
-          <td>Foot 4</td>
-          <td>Foot 5</td>
-        </tr>
-      </tfoot>
-      <tbody>
-        <tr>
-          <td>Main</td>
-          <td rowspan="4">Main</td>
-          <td>Main</td>
-          <td>Main</td>
-          <td>Main</td>
-        </tr>
-        <tr>
-          <td>Main</td>
-          <td colspan="3">Main</td>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Head 1</th>
+            <th>Head 2</th>
+            <th>Head 3</th>
+            <th>Head 4</th>
+            <th>Head 5</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td>Foot 1</td>
+            <td>Foot 2</td>
+            <td>Foot 3</td>
+            <td>Foot 4</td>
+            <td>Foot 5</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>Main</td>
+            <td rowspan="4">Main</td>
+            <td>Main</td>
+            <td>Main</td>
+            <td>Main</td>
           </tr>
           <tr>
-          <td>Main</td>
-          <td>Main</td>
-          <td>Main</td>
-          <td>Main</td>
-        </tr>
-        <tr>
-          <td>Main</td>
-          <td>Main</td>
-          <td colspan="2" rowspan="2">Main</td>
-        </tr>
-        <tr>
-          <td>Main</td>
-          <td>Main</td>
-          <td>Main</td>
-        </tr>
-      </tbody>
-    </table>
+            <td>Main</td>
+            <td colspan="3">Main</td>
+            </tr>
+            <tr>
+            <td>Main</td>
+            <td>Main</td>
+            <td>Main</td>
+            <td>Main</td>
+          </tr>
+          <tr>
+            <td>Main</td>
+            <td>Main</td>
+            <td colspan="2" rowspan="2">Main</td>
+          </tr>
+          <tr>
+            <td>Main</td>
+            <td>Main</td>
+            <td>Main</td>
+          </tr>
+        </tbody>
+      </table>
 
-    <h2 id="chapter2">Wielopoziomowa lista</h2>
+      <h2 id="chapter2">Wielopoziomowa lista</h2>
 
-    <ol>
-      <li>Element</li>
-      <li>Element</li>
-      <li>Element
-        <ol>
-          <li>drugi poziom</li>
-          <li>drugi poziom</li>
-          <li>drugi poziom</li>
-        </ol>
-      </li>
-      <li>Element
-        <ol>
-          <li>Numeracja drugiego poziomu</li>
-          <li>Numeracja drugiego poziomu
-            <ol>
-              <li>Trzeci</li>
-              <li>Trzeci</li>
-            </ol>
-          </li>
-          <li>Numeracja drugiego poziomu</li>
-        </ol>
-      </li>
-      <li>Element</li>
-    </ol>
+      <ol>
+        <li>Element</li>
+        <li>Element</li>
+        <li>Element
+          <ol>
+            <li>drugi poziom</li>
+            <li>drugi poziom</li>
+            <li>drugi poziom</li>
+          </ol>
+        </li>
+        <li>Element
+          <ol>
+            <li>Numeracja drugiego poziomu</li>
+            <li>Numeracja drugiego poziomu
+              <ol>
+                <li>Trzeci</li>
+                <li>Trzeci</li>
+              </ol>
+            </li>
+            <li>Numeracja drugiego poziomu</li>
+          </ol>
+        </li>
+        <li>Element</li>
+      </ol>
 
-    <h2 id="chapter3">Wykaz definicji kilku terminów</h2>
+      <h2 id="chapter3">Wykaz definicji kilku terminów</h2>
 
-    <dl>
-      <dt>sosna</dt>
-      <dd>rodzaj roślin z rodziny sosnowatych (Pinaceae Lindl.) obejmujący niemal 115 gatunków drzew i krzewów</dd>
-      <dt>dąb</dt>
-      <dd>rodzaj drzew, rzadziej wysokich krzewów, zaliczony do rodziny bukowatych (Fagaceae Dumort.)</dd>
-      <dt>brzoza</dt>
-      <dd>rodzaj drzew i krzewów należący do rodziny brzozowatych</dd>
-    </dl>
+      <dl>
+        <dt>sosna</dt>
+        <dd>rodzaj roślin z rodziny sosnowatych (Pinaceae Lindl.) obejmujący niemal 115 gatunków drzew i krzewów</dd>
+        <dt>dąb</dt>
+        <dd>rodzaj drzew, rzadziej wysokich krzewów, zaliczony do rodziny bukowatych (Fagaceae Dumort.)</dd>
+        <dt>brzoza</dt>
+        <dd>rodzaj drzew i krzewów należący do rodziny brzozowatych</dd>
+      </dl>
 
-    <h2 id="chapter4">Odpowiedzi na pytania</h2>
+      <h2 id="chapter4">Odpowiedzi na pytania</h2>
 
-    <ol>
-    	<li>
-    		Znacznik i narzuca od razu styl, podczas gdy znacznik em wskazuje wyłącznie nacisk położony na dany fragment. Przeglądarki zazwyczaj wyświetlają te elementy w ten sam sposób, jednak miałaby sens zmiana stylu wyświetlania elementu em (np. czerwony kolor kroju czcionki), natomiast elementy w tagu i powinny być zawsze wyświetlane jako pochyłe.
-    	</li>
-    	<li>
-    		Podobnie jak wyżej. Znacznik b narzuca od razu styl (pogrubiony krój czcionki), natomiast znacznik strong wskazuje wyłącznie nacisk położony na dany fragment. Przeglądarki zazwyczaj wyświetlają te elementy w ten sam sposób, jednak tu tak samo miałaby sens zmiana stylu wyświetlania elementu strong (np. czerwony kolor kroju czcionki).
-    	</li>
-    	<li>
-    		Znacznik samp służy to wyświetlania "outputu", natomiast w znaczniku code umieszczamy kod programu.
-    	</li>
-    	<li>
-    		Każdy znacznik p jest osobnym elementem blokowym, i od sposobu wyświetlania tych elementów zależy odstęp między elementami p. br (ręczne łamanie linii) służy natomiast do formatowania kodu. Wtedy powstały odstęp zależy od wysokości linii.
-    	</li>
-    </ol>
+      <ol>
+      	<li>
+      		Znacznik i narzuca od razu styl, podczas gdy znacznik em wskazuje wyłącznie nacisk położony na dany fragment. Przeglądarki zazwyczaj wyświetlają te elementy w ten sam sposób, jednak miałaby sens zmiana stylu wyświetlania elementu em (np. czerwony kolor kroju czcionki), natomiast elementy w tagu i powinny być zawsze wyświetlane jako pochyłe.
+      	</li>
+      	<li>
+      		Podobnie jak wyżej. Znacznik b narzuca od razu styl (pogrubiony krój czcionki), natomiast znacznik strong wskazuje wyłącznie nacisk położony na dany fragment. Przeglądarki zazwyczaj wyświetlają te elementy w ten sam sposób, jednak tu tak samo miałaby sens zmiana stylu wyświetlania elementu strong (np. czerwony kolor kroju czcionki).
+      	</li>
+      	<li>
+      		Znacznik samp służy to wyświetlania "outputu", natomiast w znaczniku code umieszczamy kod programu.
+      	</li>
+      	<li>
+      		Każdy znacznik p jest osobnym elementem blokowym, i od sposobu wyświetlania tych elementów zależy odstęp między elementami p. br (ręczne łamanie linii) służy natomiast do formatowania kodu. Wtedy powstały odstęp zależy od wysokości linii.
+      	</li>
+      </ol>
 
-    <p>
-      <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
-    </p>
+      <p>
+        <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+      </p>
 
-    <h2>Menu strony</h2>
+      <h2>Menu strony</h2>
 
-    <ul>
-      <li><a href="cw1.xhtml">Ćwiczenie 1 - Ojcowski Park Narodowy</a></li>
-      <li><a href="cw2.xhtml">Ćwiczenie 2 - Formatowanie tekstu</a></li>
-      <li><a href="cw3.xhtml">Ćwiczenie 3 - Tabele i listy</a></li>
-      <li><a href="cw4.xhtml">Ćwiczenie 4 - Obrazy</a></li>
-    </ul>
+      <ul class="page-menu">
+        <li><a href="cw1.xhtml">Ćwiczenie 1 - Ojcowski Park Narodowy</a></li>
+        <li><a href="cw2.xhtml">Ćwiczenie 2 - Formatowanie tekstu</a></li>
+        <li><a href="cw3.xhtml">Ćwiczenie 3 - Tabele i listy</a></li>
+        <li><a href="cw4.xhtml">Ćwiczenie 4 - Obrazy</a></li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>

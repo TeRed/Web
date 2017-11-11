@@ -73,6 +73,19 @@ a {
 	border-bottom: 1px solid #000;
 }
 
+.page-menu a {
+	text-transform: uppercase;
+}
+.page-menu a:hover {
+	text-decoration: underline;
+}
+.page-menu {
+	padding: 0;
+}
+.page-menu li {
+	list-style-type: none;
+}
+
 #content-wrap {
 	max-width: 1000px;
 	margin: 0 auto;
