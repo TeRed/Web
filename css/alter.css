@@ -76,7 +76,7 @@ a {
 }
 .nav li {
 	list-style-type: none;
-	width: 20%;
+	width: 25%;
 	float: left;
 }
 .nav a {
@@ -176,6 +176,7 @@ img {
     page-break-inside: avoid; /* or 'auto' */
 }
 
+img,
 #content-table {
   display: none;
 }
